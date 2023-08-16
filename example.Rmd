@@ -1,0 +1,53 @@
+---
+date: ""
+author: ""
+title: ""
+output: 
+  officedown::rdocx_document:
+  page_size:
+    width: 11.7
+    height: 8.3
+    orient: "landscape"
+  page_margins:
+    bottom: 1
+    top: 1
+    right: 1.25
+    left: 1.25
+    header: 0.5
+    footer: 0.5
+    gutter: 0.5
+---
+```{r, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+```
+
+<!---BLOCK_LANDSCAPE_START--->
+
+```{r, echo = FALSE}
+#| echo: false
+
+library(haven)
+library(compiler)
+library(tiff) 
+library(readxl)
+library(dplyr)
+library(stringr)
+
+1
+
+R.version
+
+```
+
+\pagebreak
+
+```{r}
+Sys.info()
+
+2
+```
+
+\pagebreak
+
+<!---BLOCK_LANDSCAPE_STOP--->
